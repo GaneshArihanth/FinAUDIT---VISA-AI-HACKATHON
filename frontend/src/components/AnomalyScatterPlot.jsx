@@ -41,7 +41,7 @@ const AnomalyScatterPlot = ({ anomalies }) => {
                         📉 Visual Forensics (Outliers)
                     </h3>
                     <p style={{ margin: '0.5rem 0 0', fontSize: '0.85rem', color: 'var(--color-text-secondary)' }}>
-                        Red points indicate statistical anomalies (Z-Score > 3).
+                        Red points indicate statistical anomalies (Z-Score &gt; 3).
                     </p>
                 </div>
 
