@@ -15,6 +15,24 @@ What makes it special? It does all this **without ever exposing your sensitive r
 
 ---
 
+## 📑 Table of Contents
+
+1.  [🌟 Why FinAUDIT Exists](#-why-finaudit-exists)
+2.  [🚀 Key Features & Capabilities](#-key-features--capabilities)
+3.  [🏗️ System Architecture (How it Works)](#-system-architecture-how-it-works)
+4.  [📂 Project Directory Structure](#-project-directory-structure)
+5.  [⚡ Installation Guide (Beginner Friendly)](#-installation-guide-beginner-friendly)
+    - [Prerequisites](#prerequisites)
+    - [Option A: The Automatic Way](#option-a-the-automatic-way)
+    - [Option B: The Manual Way](#option-b-the-manual-way)
+6.  [🎮 User Manual: How to Use](#-user-manual-how-to-use)
+7.  [👨‍💻 Developer Guide: Extending the System](#-developer-guide-extending-the-system)
+8.  [🔗 API Documentation](#-api-documentation)
+9.  [📖 Glossary of Terms](#-glossary-of-terms)
+10. [❓ Troubleshooting & FAQ](#-troubleshooting--faq)
+
+---
+
 ## 🌟 Why FinAUDIT Exists
 
 In the modern financial world, data is a liability. Storing credit card numbers (PCI DSS) or personal user data (GDPR) incorrectly can lead to massive fines.
