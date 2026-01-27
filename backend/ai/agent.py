@@ -44,7 +44,7 @@ def get_local_key():
                         key_part = clean.split("=", 1)[1].strip()
                         # Remove quotes
                         key = key_part.strip('"').strip("'")
-                        print(f"   📄 [Env Config]: Extracted Key: '{key}'")
+                        # print(f"   📄 [Env Config]: Extracted Key: '{key}'")
                         return key
                 else:
                     print(f"      [Line {i+1} Skip]: {clean[:15]}...")
@@ -144,7 +144,7 @@ def invoke_llm_with_fallback(messages: List[BaseMessage]):
     """Synchronous wrapper"""
     try:
         api_key = get_local_key()
-        print(f"   🔑 [LLM DEBUG]: Using GOOGLE_API_KEY (FULL): '{api_key}'")
+        # print(f"   🔑 [LLM DEBUG]: Using GOOGLE_API_KEY (FULL): '{api_key}'")
         print(f"   📨 [LLM Request Payload]: {messages}")
         
         response = llm.invoke(messages)
@@ -163,7 +163,7 @@ async def invoke_llm_with_fallback_async(messages: List[BaseMessage]):
     """Async wrapper"""
     try:
         api_key = get_local_key()
-        print(f"   🔑 [LLM ASYNC DEBUG]: Using GOOGLE_API_KEY (FULL): '{api_key}'")
+        # print(f"   🔑 [LLM ASYNC DEBUG]: Using GOOGLE_API_KEY (FULL): '{api_key}'")
         print(f"   📨 [LLM ASYNC Request Payload]: {messages}")
 
         response = await llm.ainvoke(messages)
